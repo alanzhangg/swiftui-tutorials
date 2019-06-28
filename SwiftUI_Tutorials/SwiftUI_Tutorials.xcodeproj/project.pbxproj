@@ -27,6 +27,9 @@
 		4B084EFC22B1E2760013157C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B084EFB22B1E2760013157C /* LandmarkRow.swift */; };
 		4B084EFE22B1E2DD0013157C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B084EFD22B1E2DD0013157C /* Landmark.swift */; };
 		4B084F0022B1E6130013157C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B084EFF22B1E6130013157C /* Data.swift */; };
+		4B1961BA22C608DB00BEC68E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1961B922C608DB00BEC68E /* BadgeBackground.swift */; };
+		4B1961BC22C6098700BEC68E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1961BB22C6098700BEC68E /* BadgeSymbol.swift */; };
+		4B1961BE22C60CDB00BEC68E /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1961BD22C60CDB00BEC68E /* RotatedBadgeSymbol.swift */; };
 		4B28A67022B259DA00D809CA /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28A66F22B259DA00D809CA /* LandmarkList.swift */; };
 		4B4AD62B22AE66470039103C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AD62A22AE66470039103C /* AppDelegate.swift */; };
 		4B4AD62D22AE66470039103C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AD62C22AE66470039103C /* SceneDelegate.swift */; };
@@ -79,6 +82,9 @@
 		4B084EFB22B1E2760013157C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		4B084EFD22B1E2DD0013157C /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		4B084EFF22B1E6130013157C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4B1961B922C608DB00BEC68E /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		4B1961BB22C6098700BEC68E /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		4B1961BD22C60CDB00BEC68E /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		4B28A66F22B259DA00D809CA /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		4B4AD62722AE66470039103C /* SwiftUI_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4AD62A22AE66470039103C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -293,6 +299,9 @@
 				4BC7549922C2203100DD2A8C /* SceneDelegate.swift */,
 				4BC7549B22C2203100DD2A8C /* ContentView.swift */,
 				4BC754A922C220C800DD2A8C /* Badge.swift */,
+				4B1961B922C608DB00BEC68E /* BadgeBackground.swift */,
+				4B1961BB22C6098700BEC68E /* BadgeSymbol.swift */,
+				4B1961BD22C60CDB00BEC68E /* RotatedBadgeSymbol.swift */,
 				4BC7549D22C2203600DD2A8C /* Assets.xcassets */,
 				4BC754A222C2203600DD2A8C /* LaunchScreen.storyboard */,
 				4BC754A522C2203600DD2A8C /* Info.plist */,
@@ -534,11 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1961BC22C6098700BEC68E /* BadgeSymbol.swift in Sources */,
 				4BC754AD22C2214800DD2A8C /* HexagonParameters.swift in Sources */,
+				4B1961BA22C608DB00BEC68E /* BadgeBackground.swift in Sources */,
 				4BC7549822C2203100DD2A8C /* AppDelegate.swift in Sources */,
 				4BC754AA22C220C800DD2A8C /* Badge.swift in Sources */,
 				4BC7549A22C2203100DD2A8C /* SceneDelegate.swift in Sources */,
 				4BC7549C22C2203100DD2A8C /* ContentView.swift in Sources */,
+				4B1961BE22C60CDB00BEC68E /* RotatedBadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

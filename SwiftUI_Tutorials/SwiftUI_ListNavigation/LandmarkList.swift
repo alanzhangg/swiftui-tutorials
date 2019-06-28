@@ -12,13 +12,16 @@ struct LandmarkList : View {
     @State var showFavoritesOnly = false
     
     var body: some View {
-        NavigationView{
-            List(landmarkData) {Landmark in
-                NavigationButton(destination: LandmarkDetail(landmark: Landmark)){
-                    LandmarkRow(landmark: Landmark)
+        NavigationView {
+            List(landmarkData) { landmark in
+                
+                if !self.showFavoritesOnly || landmark.isFavorite {
+                    NavigationButton(destination: LandmarkDetail(landmark: landmark)) {
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
-            }
-            .navigationBarTitle(Text("Landmarks"))
+                }
+                .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
